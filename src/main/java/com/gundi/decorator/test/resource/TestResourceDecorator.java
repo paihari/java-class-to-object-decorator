@@ -1,5 +1,7 @@
 package com.gundi.decorator.test.resource;
 
+import com.gundi.decorator.test.resource.ejb.EJBTestResourceDecorator;
+
 import javax.annotation.Resource;
 import java.lang.reflect.Field;
 import javax.ejb.EJB;
@@ -51,7 +53,7 @@ public interface TestResourceDecorator {
                 for (final Field field : classToInject.getDeclaredFields()) {
                     EJB ejb = field.getAnnotation(EJB.class);
                     if(ejb != null) {
-                        decorator = null; //new EJBTestResourceDecorator(decorator);
+                        decorator = new EJBTestResourceDecorator(decorator);
                         break;
                     }
                 }

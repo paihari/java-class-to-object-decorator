@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95fe30c8-22b6-4807-a712-4c29fc29f97c" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/com/gundi/decorator/test/HelloWorld.java" afterPath="$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/HelloWorld.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/com/gundi/decorator/test/annotations/TestRuntimeConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/annotations/TestRuntimeConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/TestResourceDecorator.java" afterPath="$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/TestResourceDecorator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/TestResourceDecoratorBase.java" afterPath="$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/TestResourceDecoratorBase.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/ejb/EJBTestResourceDecorator.java" afterPath="$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/ejb/EJBTestResourceDecorator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/com/gundi/decorator/test/util/JMSTestUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/util/JMSTestUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/decorator.test_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/decorator.test_main.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -54,10 +61,6 @@
                 <option name="myItemId" value="decorator.test" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
               </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="Tasks" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
-              </PATH_ELEMENT>
             </PATH>
             <PATH>
               <PATH_ELEMENT>
@@ -69,22 +72,8 @@
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
-                <option name="myItemId" value="Tasks" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="build" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode$1" />
-              </PATH_ELEMENT>
-            </PATH>
-            <PATH>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="decorator.test" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+                <option name="myItemId" value="Source Sets" />
+                <option name="myItemType" value="org.jetbrains.plugins.gradle.service.project.view.GradleViewContributor$SourceSetsNode" />
               </PATH_ELEMENT>
             </PATH>
           </tree_state>
@@ -114,33 +103,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloWorld.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/HelloWorld.java">
+      <file leaf-file-name="HelloWorld.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/HelloWorld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="225">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
-                <element signature="e#174#175#0" expanded="false" />
-                <element signature="e#207#208#0" expanded="false" />
-                <element signature="e#256#257#0" expanded="false" />
-                <element signature="e#299#300#0" expanded="false" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestResourceDecorator.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/TestResourceDecorator.java">
+      <file leaf-file-name="TestResourceDecorator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/TestResourceDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+            <state relative-caret-position="220">
+              <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="TestResourceDecoratorBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/TestResourceDecoratorBase.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/TestResourceDecoratorBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="900">
               <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
@@ -150,29 +137,22 @@
         </entry>
       </file>
       <file leaf-file-name="JMSTestUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/util/JMSTestUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/util/JMSTestUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1740">
+            <state relative-caret-position="945">
               <caret line="74" column="29" lean-forward="false" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="EJBTestResourceDecorator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/ejb/EJBTestResourceDecorator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/ejb/EJBTestResourceDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-600">
-              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="4860">
+              <caret line="334" column="1" lean-forward="false" selection-start-line="334" selection-start-column="1" selection-end-line="334" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#690#706#0" expanded="true" />
-                <element signature="e#3687#3697#0" expanded="true" />
-                <element signature="e#8063#8093#0" expanded="true" />
-                <element signature="e#8705#8735#0" expanded="true" />
-                <element signature="e#10239#10249#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -181,7 +161,7 @@
       <file leaf-file-name="Reflections.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reflections/reflections/0.9.9-RC1/654dcaafdb84f03858bb69bbe031f0325bb49065/reflections-0.9.9-RC1-sources.jar!/org/reflections/Reflections.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-510">
+            <state relative-caret-position="0">
               <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="23" />
               <folding />
             </state>
@@ -189,7 +169,7 @@
         </entry>
       </file>
       <file leaf-file-name="TestRuntimeConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/annotations/TestRuntimeConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/annotations/TestRuntimeConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
@@ -566,10 +546,10 @@
         <option value="$PROJECT_DIR$/src/main/com/gundi/decorator/test/online/OnlineUnitIntegrationTestEnvironment.java" />
         <option value="$PROJECT_DIR$/src/main/com/gundi/decorator/test/online/OnlineUnitIntegrationTestInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/TestResourceDecoratorBase.java" />
-        <option value="$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/TestResourceDecorator.java" />
         <option value="$PROJECT_DIR$/src/main/com/gundi/decorator/test/util/JMSTestUtil.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/ejb/EJBTestResourceDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/TestResourceDecorator.java" />
       </list>
     </option>
   </component>
@@ -594,8 +574,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -609,8 +587,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="decorator.test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-decorator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="decorator.test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-decorator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -620,25 +640,12 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;jar:///Users/pai/.gradle/caches/modules-2/files-2.1/org.reflections/reflections/0.9.9-RC1/654dcaafdb84f03858bb69bbe031f0325bb49065/reflections-0.9.9-RC1-sources.jar!/org/reflections/Reflections.java&#10;Reflections&#9;PSI&#9;JAVA://org.reflections.Reflections" />
   </component>
-  <component name="RunManager" selected="Gradle.test-decorator [buildDependents]">
-    <configuration default="false" name="test-decorator [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.test-decorator [build]">
     <configuration default="false" name="HelloWorldTest.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -706,6 +713,24 @@
         <option name="taskNames">
           <list>
             <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="test-decorator [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -926,19 +951,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Gradle.test-decorator [test]" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.HelloWorldTest.name" />
-      <item index="2" class="java.lang.String" itemvalue="Gradle.test-decorator [buildDependents]" />
-      <item index="3" class="java.lang.String" itemvalue="Groovy.build" />
-      <item index="4" class="java.lang.String" itemvalue="Gradle.test-decorator [build]" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.HelloWorldTest.name" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.test-decorator [buildDependents]" />
+      <item index="2" class="java.lang.String" itemvalue="Groovy.build" />
+      <item index="3" class="java.lang.String" itemvalue="Gradle.test-decorator [build]" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.test-decorator [jar]" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.test-decorator [buildDependents]" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.test-decorator [build]" />
-        <item index="2" class="java.lang.String" itemvalue="Groovy.build" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HelloWorldTest.name" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.test-decorator [test]" />
+        <item index="0" class="java.lang.String" itemvalue="Gradle.test-decorator [build]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.test-decorator [jar]" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.test-decorator [buildDependents]" />
+        <item index="3" class="java.lang.String" itemvalue="Groovy.build" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.HelloWorldTest.name" />
       </list>
     </recent_temporary>
   </component>
@@ -992,20 +1017,19 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32658958" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32803467" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32658958" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32803467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36303386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25184095" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37334314" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25184095" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1015,6 +1039,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32658958" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1035,20 +1060,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#174#175#0" expanded="false" />
-            <element signature="e#207#208#0" expanded="false" />
-            <element signature="e#256#257#0" expanded="false" />
-            <element signature="e#299#300#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/TestResourceDecorator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/TestResourceDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1245">
           <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
@@ -1056,7 +1068,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/TestResourceDecoratorBase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/TestResourceDecoratorBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
@@ -1064,32 +1076,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/util/JMSTestUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/util/JMSTestUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/ejb/EJBTestResourceDecorator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/ejb/EJBTestResourceDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3150">
           <caret line="214" column="34" lean-forward="false" selection-start-line="214" selection-start-column="34" selection-end-line="214" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#690#706#0" expanded="true" />
-            <element signature="e#3687#3697#0" expanded="true" />
-            <element signature="e#8063#8093#0" expanded="true" />
-            <element signature="e#8705#8735#0" expanded="true" />
-            <element signature="e#10239#10249#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/annotations/TestRuntimeConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/annotations/TestRuntimeConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
@@ -1113,20 +1118,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/HelloWorld.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
-            <element signature="e#174#175#0" expanded="false" />
-            <element signature="e#207#208#0" expanded="false" />
-            <element signature="e#256#257#0" expanded="false" />
-            <element signature="e#299#300#0" expanded="false" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/TestResourceDecorator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/TestResourceDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1245">
           <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
@@ -1134,7 +1137,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/TestResourceDecoratorBase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/TestResourceDecoratorBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
@@ -1142,32 +1145,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/util/JMSTestUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/util/JMSTestUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/ejb/EJBTestResourceDecorator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/ejb/EJBTestResourceDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3150">
           <caret line="214" column="34" lean-forward="false" selection-start-line="214" selection-start-column="34" selection-end-line="214" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#690#706#0" expanded="true" />
-            <element signature="e#3687#3697#0" expanded="true" />
-            <element signature="e#8063#8093#0" expanded="true" />
-            <element signature="e#8705#8735#0" expanded="true" />
-            <element signature="e#10239#10249#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/annotations/TestRuntimeConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/annotations/TestRuntimeConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
@@ -1191,20 +1187,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/HelloWorld.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
-            <element signature="e#174#175#0" expanded="false" />
-            <element signature="e#207#208#0" expanded="false" />
-            <element signature="e#256#257#0" expanded="false" />
-            <element signature="e#299#300#0" expanded="false" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/TestResourceDecorator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/TestResourceDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1245">
           <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
@@ -1212,7 +1206,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/TestResourceDecoratorBase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/TestResourceDecoratorBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
@@ -1220,32 +1214,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/util/JMSTestUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/util/JMSTestUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/ejb/EJBTestResourceDecorator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/ejb/EJBTestResourceDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3150">
           <caret line="214" column="34" lean-forward="true" selection-start-line="214" selection-start-column="34" selection-end-line="214" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#690#706#0" expanded="true" />
-            <element signature="e#3687#3697#0" expanded="true" />
-            <element signature="e#8063#8093#0" expanded="true" />
-            <element signature="e#8705#8735#0" expanded="true" />
-            <element signature="e#10239#10249#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/annotations/TestRuntimeConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/annotations/TestRuntimeConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
@@ -1261,21 +1248,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/HelloWorld.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
-            <element signature="e#174#175#0" expanded="false" />
-            <element signature="e#207#208#0" expanded="false" />
-            <element signature="e#256#257#0" expanded="false" />
-            <element signature="e#299#300#0" expanded="false" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/gundi/decorator/test/HelloWorldTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/TestResourceDecorator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/TestResourceDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
@@ -1283,7 +1268,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/TestResourceDecoratorBase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/TestResourceDecoratorBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1035">
           <caret line="73" column="37" lean-forward="false" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
@@ -1292,23 +1277,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/online/OnlineUnitIntegrationTestEnvironment.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/ejb/EJBTestResourceDecorator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/ejb/EJBTestResourceDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="50" column="48" lean-forward="false" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#690#706#0" expanded="true" />
-            <element signature="e#3687#3697#0" expanded="true" />
-            <element signature="e#8063#8093#0" expanded="true" />
-            <element signature="e#8705#8735#0" expanded="true" />
-            <element signature="e#10239#10249#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/online/OnlineUnitIntegrationTestInitializer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/annotations/TestRuntimeConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/annotations/TestRuntimeConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
@@ -1324,21 +1304,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/HelloWorld.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
-            <element signature="e#174#175#0" expanded="false" />
-            <element signature="e#207#208#0" expanded="false" />
-            <element signature="e#256#257#0" expanded="false" />
-            <element signature="e#299#300#0" expanded="false" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/gundi/decorator/test/HelloWorldTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/TestResourceDecorator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/TestResourceDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1346,7 +1324,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/TestResourceDecoratorBase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/TestResourceDecoratorBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1110">
           <caret line="74" column="55" lean-forward="true" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
@@ -1355,7 +1333,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/online/OnlineUnitIntegrationTestEnvironment.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/annotations/TestRuntimeConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/annotations/TestRuntimeConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
@@ -1364,23 +1342,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/online/sss" />
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#174#175#0" expanded="false" />
-            <element signature="e#207#208#0" expanded="false" />
-            <element signature="e#256#257#0" expanded="false" />
-            <element signature="e#299#300#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/gundi/decorator/test/HelloWorldTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/online/OnlineUnitIntegrationTestEnvironment.java" />
     <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/online/OnlineUnitIntegrationTestInitializer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/TestResourceDecoratorBase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/TestResourceDecoratorBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
@@ -1396,7 +1361,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/annotations/TestRuntimeConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/annotations/TestRuntimeConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
@@ -1412,44 +1377,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/util/JMSTestUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/util/JMSTestUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1740">
+        <state relative-caret-position="945">
           <caret line="74" column="29" lean-forward="false" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reflections/reflections/0.9.9-RC1/654dcaafdb84f03858bb69bbe031f0325bb49065/reflections-0.9.9-RC1-sources.jar!/org/reflections/Reflections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
+        <state relative-caret-position="0">
           <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/ejb/EJBTestResourceDecorator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/ejb/EJBTestResourceDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="4860">
+          <caret line="334" column="1" lean-forward="false" selection-start-line="334" selection-start-column="1" selection-end-line="334" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#690#706#0" expanded="true" />
-            <element signature="e#3687#3697#0" expanded="true" />
-            <element signature="e#8063#8093#0" expanded="true" />
-            <element signature="e#8705#8735#0" expanded="true" />
-            <element signature="e#10239#10249#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/gundi/decorator/test/resource/TestResourceDecorator.java">
+    <entry file="file://$PROJECT_DIR$/build/reports/tests/test/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/TestResourceDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        <state relative-caret-position="220">
+          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

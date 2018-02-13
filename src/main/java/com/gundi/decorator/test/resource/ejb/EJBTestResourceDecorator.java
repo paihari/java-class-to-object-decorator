@@ -25,10 +25,12 @@ public class EJBTestResourceDecorator extends TestResourceDecoratorBase {
     private Map<String, Object> ejbCache = new HashMap<String, Object>();
 
     public EJBTestResourceDecorator(TestResourceDecorator testResourceDecorator) {
+
         super(testResourceDecorator);
     }
 
     public EJBTestResourceDecorator() {
+
         super();
     }
 
