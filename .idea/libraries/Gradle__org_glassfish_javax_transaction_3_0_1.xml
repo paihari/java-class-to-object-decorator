@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.glassfish:javax.transaction:3.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish/javax.transaction/3.0.1/11a5741fe22b79f490ab22d5ad3eae54383c45c4/javax.transaction-3.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish/javax.transaction/3.0.1/b093750441a414bf9388ee2957ac15f5a356f4c4/javax.transaction-3.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
