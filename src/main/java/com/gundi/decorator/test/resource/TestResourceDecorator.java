@@ -2,10 +2,10 @@ package com.gundi.decorator.test.resource;
 
 import com.gundi.decorator.test.resource.ejb.EJBTestResourceDecorator;
 
-import javax.annotation.Resource;
+
 import java.lang.reflect.Field;
 import javax.ejb.EJB;
-import javax.persistence.PersistenceContext;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -33,7 +33,7 @@ public interface TestResourceDecorator {
      * The Factory Method, which returns the type of decorator
      * This uses relection to glance the TestClass and identifies
      * the type of resources to be injected
-     * @author A895680
+     * @author pai
      *
      */
     public static class Factory {
@@ -57,27 +57,27 @@ public interface TestResourceDecorator {
                         break;
                     }
                 }
-                for (final Field field : classToInject.getDeclaredFields()) {
-                    Resource resource = field.getAnnotation(Resource.class);
-                    if(resource != null) {
-                        decorator = null; //new JMSTestResourceDecorator(decorator);
-                        break;
-                    }
-                }
-                for (final Field field : classToInject.getDeclaredFields()) {
-                    PersistenceContext persistenceContext = field.getAnnotation(PersistenceContext.class);
-                    if(persistenceContext != null) {
-                        decorator = null; //new PersistenceTestResourceDecorator(decorator);
-                        break;
-                    }
-                }
-                for (final Field field : classToInject.getDeclaredFields()) {
-//                    MDB mdb = field.getAnnotation(MDB.class);
-//                    if(mdb != null) {
-//                        decorator = null ; //new MDBTestResourceDecorator(decorator);
+//                for (final Field field : classToInject.getDeclaredFields()) {
+//                    Resource resource = field.getAnnotation(Resource.class);
+//                    if(resource != null) {
+//                        decorator = null; //new JMSTestResourceDecorator(decorator);
 //                        break;
 //                    }
-                }
+//                }
+//                for (final Field field : classToInject.getDeclaredFields()) {
+//                    PersistenceContext persistenceContext = field.getAnnotation(PersistenceContext.class);
+//                    if(persistenceContext != null) {
+//                        decorator = null; //new PersistenceTestResourceDecorator(decorator);
+//                        break;
+//                    }
+//                }
+//                for (final Field field : classToInject.getDeclaredFields()) {
+////                    MDB mdb = field.getAnnotation(MDB.class);
+////                    if(mdb != null) {
+////                        decorator = null ; //new MDBTestResourceDecorator(decorator);
+////                        break;
+////                    }
+//                }
 
             }
             return decorator;
