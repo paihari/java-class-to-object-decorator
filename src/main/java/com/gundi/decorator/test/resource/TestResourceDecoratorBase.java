@@ -1,6 +1,7 @@
 package com.gundi.decorator.test.resource;
 
 import com.gundi.decorator.test.annotations.TestRuntimeConfig;
+import com.gundi.decorator.test.online.OnlineUnitIntegrationTestEnvironment;
 
 import java.util.Map;
 
@@ -62,6 +63,19 @@ public class TestResourceDecoratorBase implements TestResourceDecorator {
         }
 
         return testRuntimeCfg;
+    }
+
+    /**
+     * Used when testOnContainer is set to true on TestRuntimeConfig Annotation in TestClass
+     * @returns the environment on which the EJBS are to be looked
+     * @throws Exception
+     */
+    protected OnlineUnitIntegrationTestEnvironment getOnlineUnitIntegrationTestEnvironment() throws Exception {
+//        if(getTestRuntimeConfiguration().environment().equals("IT")) {
+//            return OnlineUnitIntegrationTestEnvironment.IT;
+//        }
+        return OnlineUnitIntegrationTestEnvironment.DEV;
+
     }
 
 

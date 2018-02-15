@@ -1,5 +1,6 @@
 package com.gundi.decorator.test.resource.ejb;
 
+import com.gundi.decorator.test.online.OnlineUnitIntegrationTestInitializer;
 import com.gundi.decorator.test.resource.TestResourceDecorator;
 import com.gundi.decorator.test.resource.TestResourceDecoratorBase;
 import org.reflections.Reflections;
@@ -53,7 +54,6 @@ public class EJBTestResourceDecorator extends TestResourceDecoratorBase {
      * @param obj: The Test Class Object
      */
     private void injectOnlineEJBResources(Object obj) {
-/*
         try {
             OnlineUnitIntegrationTestInitializer.setTestEnvironment(getOnlineUnitIntegrationTestEnvironment());
             OnlineUnitIntegrationTestInitializer.start();
@@ -75,7 +75,14 @@ public class EJBTestResourceDecorator extends TestResourceDecoratorBase {
                         EJB ejb = field.getAnnotation(EJB.class);
                         if(ejb != null) {
                             field.setAccessible(true);
-                            String lookUpString = ejb.mappedName() + "#" + field.getType().getName();
+                            String lookUpString = ejb.mappedName();
+                            if(lookUpString.equals("")) {
+                                lookUpString = ejb.beanName();
+                                if(lookUpString.equals("")) {
+                                    lookUpString = ejb.lookup();
+                                }
+                            }
+
                             Object service = OnlineUnitIntegrationTestInitializer.lookupEBJ3(lookUpString);
                             field.set(obj, service);
 
@@ -88,7 +95,7 @@ public class EJBTestResourceDecorator extends TestResourceDecoratorBase {
             e.printStackTrace();
             throw new IllegalStateException("Could not connect to the container mentioned in server.properties "  );
         }
-*/
+
     }
 
     /**
