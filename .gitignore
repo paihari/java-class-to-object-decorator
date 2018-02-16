@@ -1,6 +1,2 @@
 .gradle
-build/classes
-build/dependency-cache
-build/reports
-build/test-results
-build/tmp
+build

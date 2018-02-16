@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95fe30c8-22b6-4807-a712-4c29fc29f97c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_openejb_openejb_client_4_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/online/OnlineUnitIntegrationTestEnvironment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/online/OnlineUnitIntegrationTestInitializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/decorator.test-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/build/libs/decorator.test-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/decorator.test_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/decorator.test_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/decorator.test_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/decorator.test_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/TestResourceDecoratorBase.java" afterPath="$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/TestResourceDecoratorBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/ejb/EJBTestResourceDecorator.java" afterPath="$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/ejb/EJBTestResourceDecorator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -89,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="53" />
+              <caret line="16" column="53" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -98,7 +90,7 @@
       <file leaf-file-name="ResourceControlTestBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/base/ResourceControlTestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="135">
               <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -120,7 +112,7 @@
       <file leaf-file-name="ResourceDecoratorTestBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/base/ResourceDecoratorTestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
+            <state relative-caret-position="390">
               <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -129,26 +121,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ComponentTestBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/base/ComponentTestBase.java">
+      <file leaf-file-name="EJBTestResourceDecorator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/ejb/EJBTestResourceDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EJBTestResourceDecorator.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/ejb/EJBTestResourceDecorator.java">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-405">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-              <folding>
-                <element signature="e#2007#2017#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -156,7 +144,7 @@
       <file leaf-file-name="TestResourceDecoratorBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/TestResourceDecoratorBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
+            <state relative-caret-position="975">
               <caret line="72" column="51" lean-forward="false" selection-start-line="72" selection-start-column="51" selection-end-line="72" selection-end-column="51" />
               <folding />
             </state>
@@ -166,11 +154,10 @@
       <file leaf-file-name="OnlineUnitIntegrationTestEnvironment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/online/OnlineUnitIntegrationTestEnvironment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1719#1727#0" expanded="true" />
                 <element signature="e#3671#3672#0" expanded="true" />
                 <element signature="e#3704#3705#0" expanded="true" />
               </folding>
@@ -181,14 +168,12 @@
       <file leaf-file-name="OnlineUnitIntegrationTestInitializer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/online/OnlineUnitIntegrationTestInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="98" column="57" lean-forward="true" selection-start-line="98" selection-start-column="57" selection-end-line="98" selection-end-column="57" />
+            <state relative-caret-position="1365">
+              <caret line="98" column="57" lean-forward="false" selection-start-line="98" selection-start-column="57" selection-end-line="98" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#733#734#0" expanded="true" />
                 <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#2295#2311#0" expanded="true" />
-                <element signature="e#2907#2922#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -587,12 +572,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/base/ResourceControlTestBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/base/ResourceDecoratorTestBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/TestResourceDecorator.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/TestResourceDecoratorBase.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/online/OnlineUnitIntegrationTestInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/online/OnlineUnitIntegrationTestEnvironment.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/ejb/EJBTestResourceDecorator.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -617,6 +602,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -633,7 +619,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -642,6 +627,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="SearchEverywhereHistoryKey" value="pai&#9;PSI&#9;JAVA://java.awt.Paint&#10;A895680&#9;null&#9;null&#10;Reflections&#9;PSI&#9;JAVA://org.reflections.Reflections" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1032,13 +1018,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32803467" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32658958" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32658958" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32658958" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35640648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36156112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10309278" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1101,13 +1087,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#693#694#0" expanded="false" />
-            <element signature="e#735#736#0" expanded="false" />
-            <element signature="e#900#901#0" expanded="false" />
-            <element signature="e#932#933#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1115,7 +1095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1123,9 +1102,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3150">
           <caret line="214" column="34" lean-forward="false" selection-start-line="214" selection-start-column="34" selection-end-line="214" selection-end-column="34" />
-          <folding>
-            <element signature="e#2007#2017#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1149,6 +1126,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1165,13 +1143,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#693#694#0" expanded="false" />
-            <element signature="e#735#736#0" expanded="false" />
-            <element signature="e#900#901#0" expanded="false" />
-            <element signature="e#932#933#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1179,7 +1151,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1187,9 +1158,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3150">
           <caret line="214" column="34" lean-forward="true" selection-start-line="214" selection-start-column="34" selection-end-line="214" selection-end-column="34" />
-          <folding>
-            <element signature="e#2007#2017#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1223,13 +1192,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1035">
           <caret line="73" column="37" lean-forward="false" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#693#694#0" expanded="false" />
-            <element signature="e#735#736#0" expanded="false" />
-            <element signature="e#900#901#0" expanded="false" />
-            <element signature="e#932#933#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1238,9 +1201,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="50" column="48" lean-forward="false" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="48" />
-          <folding>
-            <element signature="e#2007#2017#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1275,13 +1236,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1110">
           <caret line="74" column="55" lean-forward="true" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#693#694#0" expanded="false" />
-            <element signature="e#735#736#0" expanded="false" />
-            <element signature="e#900#901#0" expanded="false" />
-            <element signature="e#932#933#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1302,6 +1257,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1309,7 +1265,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="74" column="29" lean-forward="false" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1317,23 +1272,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#7896#7897#0" expanded="false" />
-            <element signature="e#7943#7944#0" expanded="false" />
-            <element signature="e#9379#9380#0" expanded="false" />
-            <element signature="e#9435#9436#0" expanded="false" />
-            <element signature="e#26418#26419#0" expanded="false" />
-            <element signature="e#26474#26475#0" expanded="false" />
-            <element signature="e#26901#26902#0" expanded="false" />
-            <element signature="e#26972#26973#0" expanded="false" />
-            <element signature="e#27101#27102#0" expanded="false" />
-            <element signature="e#27129#27130#0" expanded="false" />
-            <element signature="e#27245#27246#0" expanded="false" />
-            <element signature="e#27281#27282#0" expanded="false" />
-            <element signature="e#27690#27691#0" expanded="false" />
-            <element signature="e#27758#27759#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1347,28 +1285,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/awt/Paint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="51" column="17" lean-forward="false" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#4266#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/base/ComponentTestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="585">
           <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1378,7 +1304,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/base/ResourceDecoratorTestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
+        <state relative-caret-position="390">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1404,7 +1330,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/base/ResourceControlTestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="135">
           <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1415,32 +1341,29 @@
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="53" />
+          <caret line="16" column="53" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/online/OnlineUnitIntegrationTestInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="98" column="57" lean-forward="true" selection-start-line="98" selection-start-column="57" selection-end-line="98" selection-end-column="57" />
+        <state relative-caret-position="1365">
+          <caret line="98" column="57" lean-forward="false" selection-start-line="98" selection-start-column="57" selection-end-line="98" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#733#734#0" expanded="true" />
             <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#2295#2311#0" expanded="true" />
-            <element signature="e#2907#2922#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/online/OnlineUnitIntegrationTestEnvironment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1719#1727#0" expanded="true" />
             <element signature="e#3671#3672#0" expanded="true" />
             <element signature="e#3704#3705#0" expanded="true" />
           </folding>
@@ -1449,7 +1372,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/TestResourceDecoratorBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
+        <state relative-caret-position="975">
           <caret line="72" column="51" lean-forward="false" selection-start-line="72" selection-start-column="51" selection-end-line="72" selection-end-column="51" />
           <folding />
         </state>
@@ -1457,11 +1380,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gundi/decorator/test/resource/ejb/EJBTestResourceDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="e#2007#2017#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
