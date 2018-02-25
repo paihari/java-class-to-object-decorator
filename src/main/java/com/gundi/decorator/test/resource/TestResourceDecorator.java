@@ -1,10 +1,12 @@
 package com.gundi.decorator.test.resource;
 
 import com.gundi.decorator.test.resource.ejb.EJBTestResourceDecorator;
+import com.gundi.decorator.test.resource.persistence.PersistenceTestResourceDecorator;
 
 
 import java.lang.reflect.Field;
 import javax.ejb.EJB;
+import javax.persistence.PersistenceContext;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -64,13 +66,13 @@ public interface TestResourceDecorator {
 //                        break;
 //                    }
 //                }
-//                for (final Field field : classToInject.getDeclaredFields()) {
-//                    PersistenceContext persistenceContext = field.getAnnotation(PersistenceContext.class);
-//                    if(persistenceContext != null) {
-//                        decorator = null; //new PersistenceTestResourceDecorator(decorator);
-//                        break;
-//                    }
-//                }
+                for (final Field field : classToInject.getDeclaredFields()) {
+                    PersistenceContext persistenceContext = field.getAnnotation(PersistenceContext.class);
+                    if(persistenceContext != null) {
+                        decorator = new PersistenceTestResourceDecorator(decorator);
+                        break;
+                    }
+                }
 //                for (final Field field : classToInject.getDeclaredFields()) {
 ////                    MDB mdb = field.getAnnotation(MDB.class);
 ////                    if(mdb != null) {

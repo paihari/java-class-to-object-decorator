@@ -1,6 +1,7 @@
 package com.gundi.decorator.test.base;
 
 import com.gundi.decorator.test.resource.TestResourceDecorator;
+import com.gundi.decorator.test.util.JPATestUtil;
 import org.junit.After;
 import org.junit.Before;
 
@@ -28,6 +29,7 @@ public class ResourceDecoratorTestBase extends ResourceControlTestBase {
         overRideObjects();
         TestResourceDecorator decorator = TestResourceDecorator.Factory.getInstance(this.getClass());
         decorator.injectTestResource(this, overRidenObjects);
+        JPATestUtil.beginTransaction();
 
 
     }
@@ -39,6 +41,7 @@ public class ResourceDecoratorTestBase extends ResourceControlTestBase {
      */
     @After
     public void tearDown() throws Exception {
+        JPATestUtil.commitTransaction();
 
     }
 
