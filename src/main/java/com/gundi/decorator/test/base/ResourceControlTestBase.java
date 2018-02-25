@@ -2,6 +2,7 @@ package com.gundi.decorator.test.base;
 
 import com.gundi.decorator.test.annotations.TestRuntimeConfig;
 import com.gundi.decorator.test.resource.ejb.EJBTestResourceDecorator;
+import com.gundi.decorator.test.resource.persistence.PersistenceTestResourceDecorator;
 
 /**
  * Created by pai on 13.02.18.
@@ -11,6 +12,7 @@ import com.gundi.decorator.test.resource.ejb.EJBTestResourceDecorator;
 public class ResourceControlTestBase extends ComponentTestBase{
 
     EJBTestResourceDecorator ejbTestResourceDecorator = new EJBTestResourceDecorator();
+    PersistenceTestResourceDecorator persistenceTestResourceDecorator = new PersistenceTestResourceDecorator();
 
     /**
      * Injects EJB to Test Object/EJB Object
@@ -21,6 +23,11 @@ public class ResourceControlTestBase extends ComponentTestBase{
     protected void injectService(Object obj, Object service) throws Exception {
         ejbTestResourceDecorator.injectSingleService(obj, service);
     }
+
+    protected void injectEntityManager(Object object) throws Exception {
+        persistenceTestResourceDecorator.injectTestResource(object, this.getClass());
+    }
+
 
 
 }
