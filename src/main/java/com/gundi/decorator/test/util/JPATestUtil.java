@@ -11,21 +11,36 @@ import java.util.*;
  * Created by pai on 25.02.18.
  */
 public class JPATestUtil {
-    private static EntityManagerFactory factory;
+    private static TestEntityMangerFactory factory;
 
     private static Map<String, EntityManager> entityManagers = new HashMap<String, EntityManager>();
     private static Properties dbProperties = null;
 
-
-
-    public static EntityManagerFactory getEntityManagerFactory(String unitName) {
-
-        if(null == factory) {
-            factory = Persistence.createEntityManagerFactory(unitName);
-        }
-        return factory;
+    public static interface TestEntityMangerFactory {
+        EntityManager getEntityManagerByName(String persistentUnitName);
     }
 
+    public static TestEntityMangerFactory getEntityManagerFactory() {
+        if(factory == null) {
+            factory = new TestEntityMangerFactory() {
+
+                @Override
+                public EntityManager getEntityManagerByName(String persistentUnitName) {
+                    EntityManager entityManager = entityManagers.get(persistentUnitName);
+                    if(entityManager == null) {
+                        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory(persistentUnitName);
+                        entityManager = entityManagerFactory.createEntityManager();
+                        entityManagers.put(persistentUnitName, entityManager);
+                    }
+
+                    return entityManager;
+                }
+            };
+        }
+
+        return factory;
+
+    }
 
     /**
      * Transaction helper Class to begin Transaction

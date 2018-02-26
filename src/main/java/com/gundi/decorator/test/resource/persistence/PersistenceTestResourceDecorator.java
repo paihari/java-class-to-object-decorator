@@ -8,6 +8,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.PersistenceContext;
 import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -54,7 +55,7 @@ public class PersistenceTestResourceDecorator extends TestResourceDecoratorBase{
 
     public void injectTestResource(Object obj, Class<?> testClass) throws Exception {
         if (null != obj ) {
-
+            JPATestUtil.TestEntityMangerFactory factory = JPATestUtil.getEntityManagerFactory();
 
             List<Class<?>> classes = new ArrayList<Class<?>>();
             classes.add(0, obj.getClass());
@@ -66,18 +67,29 @@ public class PersistenceTestResourceDecorator extends TestResourceDecoratorBase{
             }
             for(Class<?> classToInject : classes) {
                 for (final Field field : classToInject.getDeclaredFields()) {
-                    PersistenceContext persist = field.getAnnotation(PersistenceContext.class);
+                    PersistenceContext persistenceContext = field.getAnnotation(PersistenceContext.class);
 
-                    if (persist != null) {
+                    if (persistenceContext != null) {
                         // set access
                         field.setAccessible(true);
 
                         if (field.get(obj) == null) {
-                            EntityManagerFactory factory = JPATestUtil.getEntityManagerFactory(persist.unitName());
-                            EntityManager em = factory.createEntityManager();
-                            field.set(obj, factory.createEntityManager());
+                            field.set(obj, factory.getEntityManagerByName(persistenceContext.unitName()));
                         }
                     }
+                }
+                for(final Method method: classToInject.getDeclaredMethods()) {
+                    PersistenceContext persistenceContext = method.getAnnotation(PersistenceContext.class);
+                    if(persistenceContext != null) {
+                        if(method.getName().startsWith("set") && method.getParameterTypes().length == 1
+                                && EntityManager.class.isAssignableFrom(method.getParameterTypes()[0])) {
+                            method.setAccessible(true);
+                            method.invoke(obj, new Object[] {factory.getEntityManagerByName(persistenceContext.unitName())});
+
+
+                        }
+                    }
+
                 }
             }
         }

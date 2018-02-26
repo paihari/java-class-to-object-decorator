@@ -3,6 +3,7 @@ package com.gundi.decorator.test.resource.ejb;
 import com.gundi.decorator.test.online.OnlineUnitIntegrationTestInitializer;
 import com.gundi.decorator.test.resource.TestResourceDecorator;
 import com.gundi.decorator.test.resource.TestResourceDecoratorBase;
+import com.gundi.decorator.test.resource.persistence.PersistenceTestResourceDecorator;
 import org.reflections.Reflections;
 
 import javax.annotation.PostConstruct;
@@ -332,11 +333,11 @@ public class EJBTestResourceDecorator extends TestResourceDecoratorBase {
      * @throws Exception
      */
     protected void injectEntityManager(Object obj) throws Exception {
-//        if (null != obj ) {
-//            PersistenceTestResourceDecorator persistenceTestResourceDecorator =
-//                    new PersistenceTestResourceDecorator();
-//            persistenceTestResourceDecorator.injectTestResource(obj, getTestClass());
-//        }
+        if (null != obj ) {
+            PersistenceTestResourceDecorator persistenceTestResourceDecorator =
+                    new PersistenceTestResourceDecorator();
+            persistenceTestResourceDecorator.injectTestResource(obj, getTestClass());
+        }
     }
 
 }
