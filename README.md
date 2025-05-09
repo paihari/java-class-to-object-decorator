@@ -32,6 +32,8 @@ cd java-class-to-object-decorator
 # Run the demo (if HelloWorld.java has a main method)
 ./gradlew run
 
+```
+
 ### Example Usage
 Annotate a field with @TestRuntimeConfig, and the corresponding decorator class will configure the object during runtime:
 
